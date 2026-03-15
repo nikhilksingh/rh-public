@@ -1,0 +1,39 @@
+<svg viewBox="0 0 100 100" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Navy background -->
+  <rect width="100" height="100" rx="14" fill="#0a1f5c"/>
+  <!-- Circle ring -->
+  <circle cx="50" cy="50" r="36" stroke="#f59e0b" stroke-width="3"/>
+  <!-- Crosshair ticks -->
+  <line x1="4"  y1="50" x2="14" y2="50" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="86" y1="50" x2="96" y2="50" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="4"  x2="50" y2="14" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="50" y1="86" x2="50" y2="96" stroke="#f59e0b" stroke-width="2.5" stroke-linecap="round"/>
+  <!-- Adult profile silhouette (left, larger, facing right) -->
+  <path fill="#f59e0b" fill-rule="evenodd" d="
+    M 20,86
+    C 20,72 21,60 22,50
+    C 23,42 25,34 29,27
+    C 32,20 37,14 43,12
+    C 48,10 53,12 56,16
+    C 59,20 60,26 59,31
+    C 58,35 56,39 54,43
+    C 52,47 50,51 48,57
+    C 46,64 44,74 43,86
+    Z
+    M 39,20 m -5,0 a 5,5 0 1,0 10,0 a 5,5 0 1,0 -10,0
+  "/>
+  <!-- Child profile silhouette (right, smaller, facing right) -->
+  <path fill="#f59e0b" fill-rule="evenodd" d="
+    M 47,86
+    C 47,75 48,65 49,57
+    C 50,50 52,44 56,39
+    C 59,34 63,30 67,29
+    C 71,28 74,30 76,34
+    C 77,37 77,41 76,45
+    C 75,48 73,51 71,54
+    C 69,57 67,62 66,70
+    C 65,76 64,81 63,86
+    Z
+    M 63,26 m -4,0 a 4,4 0 1,0 8,0 a 4,4 0 1,0 -8,0
+  "/>
+</svg>
